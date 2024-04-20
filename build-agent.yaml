@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   labels:
     app: spring-build-ci
+    comment: vers1
 spec:
   containers:
     - name: kaniko
